@@ -20,6 +20,7 @@ _charcoal: '#222223' # Use for borders between gray backgrounds
 # -----------------------------------------------------------------------------
 _blue: '#45A9F9'
 _light-blue: '#6FC1FF'
+_very-light-blue: '#8FCFFF'
 _purple: '#B084EB'
 _purple-fade: '#B084EB60'
 _light-purple: '#BCAAFE'

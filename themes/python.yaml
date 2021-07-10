@@ -1,0 +1,46 @@
+# variable.other.property is a fallback for the semantic token selector property [make general note at the top...]
+- scope: meta.function-call.generic.python, variable.other.property 
+  settings: 
+    foreground: _light-blue
+
+- scope: entity.name.function.python, entity.name.function
+  settings:
+    foreground: _blue
+
+- scope: punctuation.section.function.begin.python
+  settings:
+    foreground: _gray
+
+- scope: punctuation.definition.arguments.begin.python,	punctuation.definition.arguments.end.python, keyword.operator.arithmetic.python
+  settings:
+    foreground: _very-light-gray
+
+- scope: keyword.operator.assignment.python, punctuation.section.function.begin.python
+  settings:
+    foreground: _very-light-gray
+
+- scope: entity.name.type.class
+  settings:
+    fontStyle: regular
+    foreground: _red
+
+- scope: variable
+  settings:
+      foreground: _light-orange #_very-light-gray 
+
+- scope: constant.numeric.dec.python, constant.numeric.float.python
+  settings:
+      foreground: _light-purple
+
+- scope: meta.fstring.python, constant.character.format.placeholder.other.python
+  settings:
+    foreground: _light-red
+
+- scope: storage.type.function.python, keyword.operator
+  settings:
+    foreground: _orange
+
+# Redundant
+- scope: variable.parameter.function.language.python, variable.parameter
+  settings:
+    foreground: _very-light-blue #_contrast-gray
