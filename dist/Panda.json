@@ -4,6 +4,7 @@
   "name": "Panda Syntax – Beta",
   "colorSpaceName": "sRGB",
   "semanticClass": "theme.dark.sublime_panda_syntax",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "scope": "comment",
@@ -334,13 +335,13 @@
     {
       "scope": "punctuation.definition.heading",
       "settings": {
-        "foreground": "#19f9d8"
+        "foreground": "#45A9F9"
       }
     },
     {
       "scope": "entity.name.section.markdown",
       "settings": {
-        "foreground": "#BBBBBB"
+        "foreground": "#FFCC95"
       }
     },
     {
@@ -357,15 +358,21 @@
       }
     },
     {
-      "scope": "beginning.punctuation.definition.list",
+      "scope": "punctuation.definition.list.begin.markdown",
       "settings": {
         "foreground": "#FF75B5"
       }
     },
     {
-      "scope": "markup.fenced_code.block.markdown punctuation.definition.markdown",
+      "scope": "punctuation.definition.markdown",
       "settings": {
-        "foreground": "#757575"
+        "foreground": "#BBBBBB"
+      }
+    },
+    {
+      "scope": "markup.fenced_code.block.markdown",
+      "settings": {
+        "foreground": "#19f9d8"
       }
     },
     {
@@ -563,7 +570,7 @@
     {
       "scope": "entity.name.function.python, entity.name.function",
       "settings": {
-        "foreground": "#45A9F9"
+        "foreground": "#6FC1FF"
       }
     },
     {
@@ -592,9 +599,15 @@
       }
     },
     {
-      "scope": "variable",
+      "scope": "variable, variable.other.property",
       "settings": {
         "foreground": "#FFCC95"
+      }
+    },
+    {
+      "scope": "variable.parameter.function.language.special.self.python",
+      "settings": {
+        "foreground": "#E6E6E6"
       }
     },
     {

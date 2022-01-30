@@ -3,9 +3,10 @@
   settings: 
     foreground: _light-blue
 
+# TODO: merge this with the above... 
 - scope: entity.name.function.python, entity.name.function
   settings:
-    foreground: _blue
+    foreground: _light-blue
 
 - scope: punctuation.section.function.begin.python
   settings:
@@ -24,9 +25,13 @@
     fontStyle: regular
     foreground: _red
 
-- scope: variable
+- scope: variable, variable.other.property
   settings:
       foreground: _light-orange #_very-light-gray 
+
+- scope: variable.parameter.function.language.special.self.python
+  settings:
+      foreground: _very-light-gray 
 
 - scope: constant.numeric.dec.python, constant.numeric.float.python
   settings:
