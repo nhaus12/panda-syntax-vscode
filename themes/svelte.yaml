@@ -1,0 +1,11 @@
+# -----------------------------------------------------------------------------
+# Svelte Tokens
+# -----------------------------------------------------------------------------
+
+- scope: entity.name.tag.svelte, meta.tag.start.svelte, meta.script.svelte
+  settings: 
+    foreground: _red
+
+- scope: entity.other.attribute-name.svelte
+  settings: 
+    foreground: _orange
