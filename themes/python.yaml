@@ -1,9 +1,11 @@
+# -----------------------------------------------------------------------------
+# Python Tokens
+# -----------------------------------------------------------------------------
 # variable.other.property is a fallback for the semantic token selector property [make general note at the top...]
 - scope: meta.function-call.generic.python, variable.other.property 
   settings: 
     foreground: _light-blue
 
-# TODO: merge this with the above... 
 - scope: entity.name.function.python, entity.name.function
   settings:
     foreground: _light-blue

@@ -633,6 +633,18 @@
       "settings": {
         "foreground": "#8FCFFF"
       }
+    },
+    {
+      "scope": "entity.name.tag.svelte, meta.tag.start.svelte, meta.script.svelte",
+      "settings": {
+        "foreground": "#FF2C6D"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.svelte",
+      "settings": {
+        "foreground": "#FFB86C"
+      }
     }
   ],
   "colors": {

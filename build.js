@@ -15,6 +15,7 @@ const css = yaml.safeLoad(readFileSync("themes/css.yaml", "utf-8"));
 const regex = yaml.safeLoad(readFileSync("themes/regex.yaml", "utf-8"));
 const jsdoc = yaml.safeLoad(readFileSync("themes/jsdoc.yaml", "utf-8"));
 const python = yaml.safeLoad(readFileSync("themes/python.yaml", "utf-8"));
+const svelte = yaml.safeLoad(readFileSync("themes/svelte.yaml", "utf-8"));
 
 // Merge workbench styles
 Object.assign(base, workbench);
@@ -27,7 +28,8 @@ base.tokenColors = base.tokenColors.concat(
   css,
   regex,
   jsdoc,
-  python
+  python,
+  svelte
 );
 
 // Stringify all of the combined theme styles so we can run string regexes on it to
